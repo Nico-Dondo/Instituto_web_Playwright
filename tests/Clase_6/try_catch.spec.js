@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test'; // test de prueba de ejemplo!!!!! de manejo de errores con try y catchS
    
     test('Test Principal', async ({ page }) => {
         await page.goto('https://mercadolibre.com.ar')
